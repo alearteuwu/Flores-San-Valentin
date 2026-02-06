@@ -1,0 +1,76 @@
+@font-face {
+    font-family: CherryBombOne;
+    src: url(../FNT/CherryBombOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Jua;
+    src: url(../FNT/Jua-Regular.ttf);
+}
+
+body {
+    background-color: #fff9e6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1,
+h4 {
+    font-family: CherryBombOne;
+}
+
+h2,
+p {
+    font-family: Jua;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 5%;
+    color: #e24a6a;
+
+}
+
+h2 {
+    margin-top: 2.5%;
+    color: #1f1e2c;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #fff9e6;
+
+    letter-spacing: 5px;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 7%;
+}
+
+section picture {
+    background-color: #c97c8c;
+    border: 3pt solid #1f1e2c;
+    padding: 20px;
+    width: 35%;
+    border-radius: 10mm;
+}
+
+picture img {
+    border: 3pt solid #1f1e2c;
+    border-radius: 10mm;
+    width: 100%;
+}
+
+p {
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    font-size: 1.5rem;
+    color: #1f1e2c;
+}
